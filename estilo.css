@@ -1,7 +1,111 @@
-body{
-background: pink;
-}
-h1 {
-text-align: center;
-}
-github
+body {
+    background: hsl(152, 77%, 53%);
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .caixa1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: green;
+    left: 0;
+    bottom:0;
+  }
+  .caixa2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: hwb(300 43% 12%);
+    left: 205px;
+    bottom:0;
+  }
+  .menuPrincipal {
+     position: absolute;
+     width: 100%;
+     height: 45px;
+     background:#b882f5;
+     font-family: 'Courier New', Courier, monospace;
+     top: 0;
+     left: 0;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background: rgb(139, 105, 201);
+    color: azure;
+  }
+  #frutas {
+     width: 15%;
+  }
+  .caixafrutas {
+    position: absolute;
+    top: 45px;
+    width: 90%;
+    height: 120px;
+    background: rgb(168, 195, 226);
+    left: 0;
+    margin: 20px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .caixafrutas2 {
+    position: absolute;
+    top: 45px;
+    width: 90%;
+    height: 120px;
+    background: rgb(39, 172, 143);
+    left: 0;
+    margin: 20px;
+    border-color: rgb(140, 140, 182);
+    border-style: solid;
+    border-width: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+  }
+  .rodape {
+     position: absolute;
+     width: 100%;
+     height: 35px;
+     background: black;
+     color: blanchedalmond;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+  }
+  .conteudo {
+    position: absolute;
+    top: 45px;
+  }
+  .frutas {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 80px;
+     z-index: 999;
+     background: hsl(73, 100%, 66%);
+  }
+  #frutas {
+    width: 30%;
+  }
