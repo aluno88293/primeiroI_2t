@@ -12,7 +12,9 @@ body {
     height: 200px;
     background: rgb(238, 236, 233);
     left: 0;
-    bottom:0;
+    bottom:0; 
+    box-shadow: none;
+    
   }
   .caixa2 {
     position: absolute;
@@ -44,19 +46,19 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
   }
   li a:hover {
     background: rgb(255, 255, 255);
     color: azure;
   }
-  #frutas {
+  #empada {
      width: 15%;
   }
-  .caixafrutas {
-    position: absolute;
-    top: 45px;
+  .caixaempada{
+    position: initial;
+    top: 60px;
     width: 90%;
     height: 120px;
     background: rgb(168, 195, 226);
@@ -68,21 +70,23 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
+    
   }
-  .caixafrutas2 {
-    position: absolute;
+  .caixaempada2 {
+    position: inherit;
     top: 45px;
     width: 90%;
     height: 120px;
-    background: rgb(39, 172, 143);
+    background: rgb(168, 195, 226);
     left: 0;
     margin: 20px;
-    border-color: rgb(140, 140, 182);
+    border-color: rgb(252, 252, 255);
     border-style: solid;
-    border-width: 20px;
-    padding: 20px;
+    border-width: 40px;
+    padding: 40px;
     display: flex;
     justify-content: end;
+    image-rendering: initial;
   }
   .rodape {
      position: absolute;
